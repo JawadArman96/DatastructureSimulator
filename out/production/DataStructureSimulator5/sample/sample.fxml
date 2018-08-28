@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="enter" layoutX="210.0" layoutY="103.0" mnemonicParsing="false" onAction="#inputAction" text="enter" />
+      <TextField fx:id="item" layoutX="125.0" layoutY="52.0" onAction="#inputAction" />
+      <Label layoutX="21.0" layoutY="49.0" prefHeight="31.0" prefWidth="88.0" text="    element:" />
+      <Button fx:id="go" layoutX="414.0" layoutY="262.0" mnemonicParsing="false" onAction="#gotoAction" prefHeight="25.0" prefWidth="51.0" text="go" />
+      <Button fx:id="clearAll" layoutX="414.0" layoutY="52.0" mnemonicParsing="false" onAction="#clearall" prefHeight="25.0" prefWidth="75.0" text="Clear All" />
+   </children>
+</AnchorPane>
